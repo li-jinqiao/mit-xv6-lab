@@ -1,0 +1,10 @@
+mit-xv6-lab
+$ git clone ...
+$ git branch -v
+$ git checkout ..
+$ make qemu
+
+0. master
+1. util
+2. syscall
+3. page tables
