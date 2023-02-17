@@ -100,7 +100,6 @@ int main(int argc, char *argv[])
 
     while (st != S_END)
     {
-        // 读取为空则退出
         if (read(0, p, sizeof(char)) != sizeof(char))
         {
             st = S_END;
@@ -143,8 +142,7 @@ int main(int argc, char *argv[])
         default:
             break;
         }
-
-        ++p; // 下一个字符的存储位置后移
+        ++p;
     }
     exit(0);
 }

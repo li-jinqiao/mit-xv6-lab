@@ -55,7 +55,6 @@ void find(char *path, const char *filename)
         else if (strcmp(filename, p) == 0)
             printf("%s\n", buf);
     }
-
     close(fd);
 }
 

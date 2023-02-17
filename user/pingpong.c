@@ -74,7 +74,6 @@ int main(int argc, char const *argv[])
 
         close(fd_p2c[WR]);
         close(fd_c2p[RD]);
-
         exit(exit_status);
     }
 }

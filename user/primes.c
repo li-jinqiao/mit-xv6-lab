@@ -68,6 +68,5 @@ int main(int argc, char const *argv[])
         close(p[RD]);
         wait(0);
     }
-
     exit(0);
 }
