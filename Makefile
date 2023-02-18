@@ -154,8 +154,6 @@ UPROGS=\
 	$U/_primes\
 	$U/_find\
 	$U/_xargs\
-	
-
 
 ifeq ($(LAB),syscall)
 UPROGS += \

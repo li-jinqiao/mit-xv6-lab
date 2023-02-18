@@ -66,5 +66,6 @@ int main(int argc, char *argv[])
         exit(1);
     }
     find(argv[1], argv[2]);
+    
     exit(0);
 }
